@@ -29,7 +29,7 @@ function Monthly(props) {
     return (
         <div className='d-flex flex-column border m-1 align-items-center py-2'>
             <h2>every month</h2>
-            <div className='d-flex flex-wrap justify-content-center'>
+            <div className='d-flex flex-wrap justify-content-center w-100'>
                 {monthlyArray.map((monthly, i) => {
                     return <Button className='col-5 m-1' variant='success' key={i} name={monthly} disabled={monthlyState[monthly]} onClick={(e)=>handleClick(e)}>{monthly}</Button>
                 })}

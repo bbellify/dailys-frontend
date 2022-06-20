@@ -31,7 +31,7 @@ function Daily(props) {
     return (
         <div className='d-flex flex-column border m-1 align-items-center py-2'>
             <h2 className=''>every day</h2>
-            <div className='d-flex flex-wrap justify-content-center'>
+            <div className='d-flex flex-wrap justify-content-center w-100'>
                 {dailyArray.map((daily, i) => {
                     return <Button className='col-5 m-1' variant='success' key={i} name={daily} disabled={dailyState[daily]} onClick={(e)=>handleClick(e)}>{daily}</Button>
                 })}

@@ -4,7 +4,7 @@ import shell from '../src/shell.png'
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <header>
         <div className='d-flex align-items-center justify-content-center my-3'>
           <img src={shell} width='15%' alt='shell'/>
